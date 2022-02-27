@@ -1,0 +1,9 @@
+.auth-form {
+  width: 450px;
+  background-color: #fbf9f994;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

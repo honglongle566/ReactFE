@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --navbar-height: 56px;
+  background: #053742;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: url("../img/he-thong-phan-mem-e-learning-vi-sao-chon-lua-he-thong-lms-phu-hop-lai-quan-trong1.png");
+  background-size: cover;
+  
+}
+
+body, html, .App, #root, .outer {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #053742;
+  box-shadow: 0px 20px 80px rgba(34, 35, 58, 0.2);
+}
+.navbar-nav{
+  margin-left: 810px;
+  align-items: center;
+  height: var(--navbar-height);
+}
+.navbar-nav1:hover{
+  background:#009dcc4d;
+  border-color: #009dcc4d;
+  width:40px;
+}
+.navbar-nav2:hover{
+  background:#009dcc4d;
+  border-color: #009dcc4d;
+  width:48px;
+}
+
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: calc(var(--navbar-height) + 16px);
+}
+
+.inner {
+  /* box-shadow: 10px 20px 90px rgba(100, 65, 0.5); */
+  transition: all .3s;
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 15px;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+.form-control{
+  margin: 10px;
+  width:350px;
+  border:1px solid #dbd7e34a;
+  border-radius: 10px;
+}
+.form-group{
+  margin: 30px;
+  
+}
+.form-control__submit{
+  margin: 30px;
+  margin-left:50px;
+}
+.meo:hover{
+  border-color: #dbd7e34a;background:#dbd7e34a;
+}
+.form-control__submit2{
+  text-align:center;
+  color:black;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
