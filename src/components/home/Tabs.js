@@ -45,7 +45,7 @@ export default function Tabs(props) {
                 </div>
                 </div>
             </nav>
-            <div className="Tabs" style={{marginTop: '0p'}}>
+            <div className="Tabs" style={{marginTop: '0px'}}>
                 {/* Tab nav */}
                 <ul className="nav">
                     <li className={activeTab === "tab1" ? "active" : ""}
