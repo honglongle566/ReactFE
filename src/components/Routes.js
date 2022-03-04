@@ -6,31 +6,7 @@ import SignUp from './SignUp';
 import Login from './Login';
 import Home from './home/Home';
 import BasePage from "./BasePage";
-//import { Logout, AuthPage } from "./modules/Auth";
 
-    // {/*<div>
-    //     <Button 
-    //         variant="primary"
-    //         onClick={() => {
-    //             doLogin('zachtrong', '123456', (token) => {
-    //                 setAccessToken(token);
-    //             })
-    //         }}
-    //     >
-    //         Login
-    //     </Button>
-
-    //     <Button 
-    //         variant="primary"
-    //         onClick={() => {
-    //             doRegister('account_registration', '123456', (token) => {
-    //                 setAccessToken(token);
-    //             })
-    //         }}
-    //     >
-    //         Register
-    //     </Button>
-    // </div> */}
 const AuthPage = ({doLogin, doRegister, setAccessToken}) => (
     <BrowserRouter>
       <div className="App">
